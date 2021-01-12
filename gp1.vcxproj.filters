@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameLib">
+      <UniqueIdentifier>{3b14384c-d4fa-49db-89ba-74445518bdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Header Files">
+      <UniqueIdentifier>{c24e3fb2-4a69-47ed-8475-6a179577d14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Source Files">
+      <UniqueIdentifier>{9ed98750-d532-4cf4-891e-e0a694909e07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameLib\debug.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\dxtk_audio.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\font.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\frame_rate.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\game_lib.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\input_manager.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\obj2d_data.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\primitive.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\resource_manager.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\sprite.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\texture.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\vector.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\view_settings.cpp">
+      <Filter>GameLib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Title_Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\TestMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameLib\blender.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\debug.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\dxtk_audio.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\font.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\frame_rate.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\game_lib.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\high_resolution_timer.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\input_manager.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\misc.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\obj2d_data.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\primitive.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\resource_manager.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\sprite.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\system.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\texture.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\util.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\vector.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\view_settings.h">
+      <Filter>GameLib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\all.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Title_Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\TestMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
