@@ -21,11 +21,6 @@ void Player::Update()
         speed.x = -6;
     if (STATE(0) & PAD_RIGHT)
         speed.x = 6;
-    if (TRG(0) & PAD_L1 && onGround)
-    {
-        speed.y = -25.0f;
-        onGround = false;
-    }
    
     if (TopChipCheck(&player, &test))
         speed.y = 0;
@@ -35,7 +30,14 @@ void Player::Update()
         speed.y = 0;
 
     Wind();
+
+    if (TRG(0) & PAD_L1 && onGround)
+    {
+        speed.y = -25.0f;
+        onGround = false;
+    }
     pos += speed;
+
     if (HoriChipCheck(&player, &test))
     {
         //speed.x = {};
@@ -84,15 +86,18 @@ void Player::Wind()
         {
             if (wind[alpha].dir == Fan::Direction::LEFT)
             {
-                player.speed.x -= 0.6f;
+                player.speed.x -= 1.0f;
+                player.speed.y *= 0.6f;
             }
             else if (wind[alpha].dir == Fan::Direction::RIGHT)
             {
-                player.speed.x += 0.6f;
+                player.speed.x += 1.0f;
+                player.speed.y *= 0.6f;
             }
             else if (wind[alpha].dir == Fan::Direction::UP)
             {
-                player.speed.y -= 0.6f;
+                if(player.speed.y > -5)
+                    player.speed.y -= 0.6f;
             }
         }
     }
